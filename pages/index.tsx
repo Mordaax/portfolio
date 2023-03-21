@@ -9,15 +9,15 @@ import React from 'react'
 
 import { Scroll, ScrollControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
+import Header from '@/components/Header'
+import Profile from '@/components/Profile'
+import Education from '@/components/Education'
+import Experiences from '@/components/Experiences'
+import Awards from '@/components/Awards'
+import Projects from '@/components/Projects'
 
 
-import Footer from './components/Footer'
-import Awards from './components/Awards'
-import Education from './components/Education'
-import Experiences from './components/Experiences'
-import Header  from './components/Header'
-import Profile from './components/Profile'
-import Projects from './components/Projects'
+
 
 
 const inter = Inter({ subsets: ['latin'] })

@@ -1,0 +1,62 @@
+{
+    "awards":[
+        {
+            "id":1,
+            "heading":"AISP SVRP",
+            "date":"2022",
+            "subheading":"Silver Award",
+            "para1":"Association of Information Security Professionals Student Voluneteer Recognition Programme"
+            
+        },
+        {
+            "id":2,
+            "heading":"DSTA CDDC Capture The Flag",
+            "date":"2022",
+            "subheading":"9th Place",
+            "para1":""
+            
+        },
+        {
+            "id":3,
+            "heading":"DSTA CDDC Capture The Flag",
+            "date":"2021",
+            "subheading":"15th Place",
+       
+            "para1":""
+            
+        },
+        {
+            "id":4,
+            "heading":"Singapore Junior Physics Olympiad",
+            "date":"2020",
+            "subheading":"Bronze",
+       
+            "para1":""
+            
+        },
+        {
+            "id":5,
+            "heading":"CITI YMCA Youth For Causes",
+            "date":"2019",
+            "subheading":"Distinction",
+            "para1":"Led a Team of 33 in the Citi YMCA youth for causes project where we partnered with Beyond Social Services and helped to raise a total of about $10,000"
+            
+        },
+        {
+            "id":6,
+            "heading":"POST i.Code Challenge",
+            "date":"2019",
+            "subheading":"Finalist",
+            "para1":"Created a financial literacy app that helps keep track of user's spending while setting goals and rewarding users at the same time"
+            
+        },
+        {
+            "id":7,
+            "heading":"Build On SG Hackathon",
+            "date":"2019",
+            "subheading":"Finalist",
+            "para1":"Utilized Amazon Web Services and created a interactive website that includes gamified versions of lessons to help students in their learning."
+            
+        }
+    ]
+}

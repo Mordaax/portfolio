@@ -1,0 +1,23 @@
+{
+    "experiences":[
+        {
+            "id":1,
+            "heading":"Nullsec Student Interest Group",
+            "date":"2021-Present",
+            "subheading":"Tech Lead",
+            "image":"nullsec.png",
+            "para":"Helped to Organize, Run and Create CTF questions for events such as Lag and Crash, Youth Cyber Exploration Programme and CTF Month. Conducted workshops on Network Forensics and Linux "
+            
+        },
+        {
+            "id":2,
+            "heading":"Overflow Student Interest Group",
+            "date":"2021-Present",
+            "subheading":"Secretary",
+            "image":"overflow.png",
+            "para":""
+            
+        }
+        
+    ]
+}

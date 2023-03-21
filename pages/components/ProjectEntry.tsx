@@ -1,7 +1,16 @@
 import React ,{useState} from 'react'
 
-const ProjectEntry = ({data}) => {
-  const {subheading, image, type, heading, para1, para2} = data
+type PropCard = {
+    subheading: string,
+    image: string,
+    type: string,
+    heading: string,
+    para1:string,
+    para2:string
+}
+
+const ProjectEntry = ({subheading, image, type, heading, para1, para2}: PropCard) => {
+  
   const [Modaldismissed, setModaldismissed] = useState(true)
  const style={
     display: 'block'
@@ -28,13 +37,13 @@ const ProjectEntry = ({data}) => {
                             <span><i className="feather-clock"></i> 2 min read</span>
                         </div>
                     </div>
-                    <h4 className="title"><a href="javascript:void(0)"  onClick={()=>{setModaldismissed(false); }} >{data.heading}
+                    <h4 className="title"><a href="javascript:void(0)"  onClick={()=>{setModaldismissed(false); }} >{heading}
                             <i className="feather-arrow-up-right"></i></a></h4>
                 </div>
             </div>
         </div>
     </div>
-    <div className="modal" tabindex="-1" role="dialog" aria-hidden="true" style={Modaldismissed ? style2 : style}>
+    <div className="modal"  role="dialog" aria-hidden="true" style={Modaldismissed ? style2 : style}>
             <div className="modal-dialog modal-dialog-centered" role="document">
                 <div className="modal-content">
                     <div className="modal-header ">

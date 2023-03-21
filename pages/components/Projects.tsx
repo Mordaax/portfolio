@@ -1,5 +1,5 @@
 import React from 'react'
-import projectdata from './../data/projects'
+import projectdata from '@/public/data/projects.json'
 import ProjectEntry from './ProjectEntry'
 
 const Projects = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
                     {
                         projectdata.projects.map(
                             (project) => (
-                                <ProjectEntry data={project} key={project.id}/>
+                                <ProjectEntry subheading={project.subheading} image={project.image} type={project.type} heading={project.heading} para1={project.para1} para2={project.para2} key={project.id}/>
                             )
                         )
                     }

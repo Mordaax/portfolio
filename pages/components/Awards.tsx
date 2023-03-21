@@ -1,5 +1,5 @@
 import React from 'react'
-import awardData from './../data/awards'
+import awardData from '@/public/data/awards.json'
 import AwardEntry from './AwardEntry'
 //import AwardEntry from './AwardEntry'
 

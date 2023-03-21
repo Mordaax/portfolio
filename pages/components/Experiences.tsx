@@ -1,5 +1,5 @@
 import React from 'react'
-import experienceData from './../data/experiences'
+import experienceData from '@/public/data/experiences.json'
 import ExperienceEntry from './ExperienceEntry'
 
 

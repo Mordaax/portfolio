@@ -18,7 +18,7 @@ export const Header = () => {
     }
   return ( 
   <>
-    <header className="rn-header haeder-default black-logo-version header--sticky" style={style}>
+    <header className="rn-header haeder-default black-logo-version header--sticky" style={style as React.CSSProperties}>
     <div className="header-wrapper rn-popup-mobile-menu m--0 row align-items-center">
           
           <div className="col-lg-2 col-6">

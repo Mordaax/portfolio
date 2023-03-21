@@ -1,8 +1,9 @@
 import React, { Suspense, useRef, useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Backdrop, ContactShadows, Environment, Lightformer, OrbitControls, Stage } from '@react-three/drei'
-import { Model } from './Model'
+
 import { PerspectiveCamera } from 'three';
+import Model from './Model';
 
 
 
@@ -17,7 +18,7 @@ export default function Viewer() {
   return (
     <>
 
-      <div style={{width:'90%', height:'90%', backgroundColor: 'transparent', margin: 'auto' }} >
+      <div style={{width:'500px', height:'400px', backgroundColor: 'transparent', margin: 'auto' }} >
         <color attach="background" args={['#15151a']} />
         <Canvas shadows dpr={[1, 2]} camera={camera}>
           <directionalLight position={[-10, 0, -5]} intensity={1} color="red" />

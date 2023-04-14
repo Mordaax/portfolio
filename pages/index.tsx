@@ -48,7 +48,7 @@ export default function Home() {
      <Education/>
      <Experiences/>
     <Awards/>
-     <Projects/>
+     {/* <Projects/> */}
      {/* <Footer/> */}
 
 

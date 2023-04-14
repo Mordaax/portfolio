@@ -6,7 +6,7 @@ import AwardEntry from './AwardEntry'
 const Awards = () => {
   return (
     <>
-    <div id="experiences" className="rn-education-area rn-section-gap section-separator">
+    <div id="awards" className="rn-education-area rn-section-gap section-separator">
             <div className="tab-pane show active fade single-tab-area" id="education" role="tabpanel" aria-labelledby="education-tab">
                     <div className="personal-experience-inner" >
                

@@ -88,10 +88,11 @@ const Header = () => {
                 <ul className="primary-menu nav nav-pills">
                     
 
-                    <li className="nav-item"><a className="nav-link smoth-animation" href="#home">Home</a></li>
+                    
+                          <li className="nav-item"><a className="nav-link smoth-animation" href="#home">Home</a></li>
                           <li className="nav-item"><a className="nav-link smoth-animation" href="#education">Education</a></li>
                           <li className="nav-item"><a className="nav-link smoth-animation" href="#experiences">Experiences</a></li>
-                          <li className="nav-item"><a className="nav-link smoth-animation" href="#projects">Projects</a></li>
+                          <li className="nav-item"><a className="nav-link smoth-animation" href="#awards">Awards</a></li>
                 </ul>
               
                 <div className="social-share-style-1 mt--40">

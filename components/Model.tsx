@@ -23,7 +23,7 @@ const Model = (props: ModelProps) => {
   }, []) */
   
 }
-useGLTF.preload("/gameboy.glb");
+useGLTF.preload("/model.glb");
 
 export default Model;
 {/* `<group {...props} dispose={null}>

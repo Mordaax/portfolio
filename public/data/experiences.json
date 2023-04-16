@@ -2,20 +2,20 @@
     "experiences":[
         {
             "id":1,
-            "heading":"Nullsec Student Interest Group",
+            "heading":"Nullsec",
             "date":"2021-Present",
             "subheading":"Tech Lead",
             "image":"nullsec.png",
-            "para":"Helped to Organize, Run and Create CTF questions for events such as Lag and Crash, Youth Cyber Exploration Programme and CTF Month. Conducted workshops on Network Forensics and Linux "
+            "para":"- Conducted cybersecurity workshops on Network Forensics and Linux \n- Supported technological requirements such as web development and phishing demonstrations \n- Helped to run events, create CTF questions for events such as Interpoly Lag and Crash, Youth Cyber Exploration Programme and CTF Month. "
             
         },
         {
             "id":2,
-            "heading":"Overflow Student Interest Group",
+            "heading":"Overflow",
             "date":"2021-Present",
             "subheading":"Secretary",
             "image":"overflow.png",
-            "para":""
+            "para":"- Conducted workshops on Vuejs, Design Patterns, Computer Vision \n- Led the planning and execution of school wide events such as Bytehackz Hackathon, SIG Fiesta \n- In charge of club's administrative matters and record keeping \n- Helped out with Open House, PolyITE Informatics Olympiad"
             
         }
         

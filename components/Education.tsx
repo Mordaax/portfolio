@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Education = () => {
+    const [shown, setShown] =useState(false)
+    function toggleText() {
+        setShown(current => !current)
+      }
   return (
     <>
     <div className="rn-resume-area rn-section-gap section-separator" id="education" >
@@ -26,10 +30,27 @@ const Education = () => {
                                                 <span>Ngee Ann Polytechnic(2021 - 2024)</span>
                                             </div>
                                             <div className="date-of-time">
-                                                <span>3.96/4</span>
+                                                <span>3.94/4, 13 Distinctions</span>
                                             </div>
                                         </div>
-                                        <p className="description">13 Distinctions</p>
+                                        <p className="description cursor-pointer text-slate-300">This experience served as an opportunity for me to acquire a diverse set of competencies and methodologies encompassing various areas including programming, cloud computing, computer networking, malware analysis, ethical hacking, and cyber forensics. 
+                                        <a className="read-more-description" onClick={toggleText}>{shown ? ' Read Less...':' Read More...'}</a>
+                                        {
+                                            shown &&
+                                            <> <br/>
+                                        <br/> - Ngee Ann Polytechnic Scholarship 
+                                        <br/> - Directors List: 1.2, 2.1, 2.2 
+                                        <br/> - Diploma Plus: Certificate in Advanced Computing Mathamatics
+                                        
+                                        <br/> - The Christeria Programme: Took part in the Youth Exploration Program, Temasek Foundation Scale Program, and TCP Camp, which provided me with a wide-ranging and diverse set of experiences, and also facilitated the development of crucial life skills such as effective time management and networking.
+                                        <br/> - Overflow, Nullsec, Orion Student Interest Group
+                                        <br/> - Chess Club
+                                        
+                                        </>
+                                        }
+                                        
+                                        </p>
+                                        
                                     </div>
                                 </div>
                               
@@ -44,10 +65,11 @@ const Education = () => {
                                                 <span>L1R5 7</span>
                                             </div>
                                         </div>
-                                        <p className="description">Maecenas finibus nec sem ut
-                                            imperdiet. Ut tincidunt est ac dolor aliquam sodales.
-                                            Phasellus sed mauris hendrerit, laoreet sem in, lobortis
-                                            mauris hendrerit ante.</p>
+                                        <p className="description">
+                                            - Infocomm Club: Learned different technologies such as gamemaker, javascript and took part in several competitions
+                                            <br/> - Sports Leader
+                                            
+                                        </p>
                                     </div>
                                 </div>
                                 

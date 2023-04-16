@@ -31,7 +31,7 @@ const ExperienceEntry = ({date, heading, subheading, para, image} : CardProps) =
                 <h6 className="subtitle" style={{marginTop:'0px'}}>
                     {subheading}
                 </h6>
-                <p className="disc">{para}</p>
+                <p className="disc" style={{whiteSpace: 'pre-line',   verticalAlign: 'bottom'}}>{para}</p>
             </div>
         </div>
       

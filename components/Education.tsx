@@ -30,7 +30,7 @@ const Education = () => {
                                                 <span>Ngee Ann Polytechnic(2021 - 2024)</span>
                                             </div>
                                             <div className="date-of-time">
-                                                <span>3.94/4, 13 Distinctions</span>
+                                                <span>3.94/4,13 Distinctions</span>
                                             </div>
                                         </div>
                                         <p className="description cursor-pointer text-slate-300">This experience served as an opportunity for me to acquire a diverse set of competencies and methodologies encompassing various areas including programming, cloud computing, computer networking, malware analysis, ethical hacking, and cyber forensics. 

@@ -23,7 +23,7 @@ const ExperienceEntry = ({date, heading, subheading, para, image} : CardProps) =
     />
                 
             </div>
-            <div className="experience-center col-lg-8 col-12 col-xs-12" >
+            <div className="experience-center col-lg-12 col-12 col-xs-12" >
                 <span className="date">{date}</span>
                 <h4 className="experience-title" style={{marginBottom:'10px'}}>
                     {heading}

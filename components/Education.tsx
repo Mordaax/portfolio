@@ -39,9 +39,11 @@ const Education = () => {
                                             shown &&
                                             <> <br/>
                                         <br/> - Ngee Ann Polytechnic Scholarship 
+                                        <br/> - Level 2.1 Most oustanding student
                                         <br/> - Directors List: 1.2, 2.1, 2.2 
                                         <br/> - Diploma Plus: Certificate in Advanced Computing Mathamatics
                                         
+
                                         <br/> - The Christeria Programme: Took part in the Youth Exploration Program, Temasek Foundation Scale Program, and TCP Camp, which provided me with a wide-ranging and diverse set of experiences, and also facilitated the development of crucial life skills such as effective time management and networking.
                                         <br/> - Overflow, Nullsec, Orion Student Interest Group
                                         <br/> - Chess Club

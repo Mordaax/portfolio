@@ -13,7 +13,7 @@ const Awards = () => {
                      <div className="mx-auto col-lg-7 col-md-10 col-10 align-left" >
                         <div className="content">
                             <span className="subtitle">2019-Current</span>
-                            <h4 className="maintitle">Awards And Certifications</h4>
+                            <h4 className="maintitle">Awards</h4>
                         </div>
                     </div>
                    
@@ -21,9 +21,10 @@ const Awards = () => {
             </div>
             <div >
                 
-                <div className="mx-auto col-lg-8 col-md-10 col-10 align-self-center">
+                <div className="mx-auto col-lg-7 col-md-10 col-10 align-self-center">
                 
-                <div className="container ">
+                <div className="container">
+                {/*  */}
                     <div className="row justify-content-center">
                         {
                             awardData.awards.map((award)=>(

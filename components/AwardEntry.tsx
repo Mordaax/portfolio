@@ -10,7 +10,7 @@ type CardProps = {
 
 const AwardEntry = ({date, heading, subheading, para}:CardProps) => {
   return (
-    <div className="experience-style-two col-12 col-lg-5 ">
+    <div className="experience-style-two col-12 col-lg-12 ">
       
         <div  className="experience-left"  style={{ flexBasis:'100%'}}>
            

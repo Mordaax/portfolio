@@ -32,7 +32,7 @@ const Profile = () => {
                                                 </div>
                                                 <div className="info">
                                                     <i data-feather="map-pin"></i>
-                                                    <span>Something</span>
+                                                    <span></span>
                                                 </div>
                                             </div>
                                         </div>

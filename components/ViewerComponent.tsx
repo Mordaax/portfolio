@@ -18,7 +18,7 @@ export default function Viewer() {
   return (
     <>
 
-      <div style={{width:'100%', height:'440px', backgroundColor: 'transparent', margin: 'auto' }} >
+      <div style={{width:'100%', height:'420px', backgroundColor: 'transparent', margin: 'auto' }} >
         <color attach="background" args={['#15151a']} />
         <Canvas shadows dpr={[1, 2]} camera={camera}>
           <directionalLight position={[-1, 0, -5]} intensity={1} color="red" />
